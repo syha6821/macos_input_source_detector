@@ -10,8 +10,4 @@
 
 간단한 shell 프로그램을 이용해 limelight와 yabai의 테두리 색 표시를 활용하여 현재 키보드인풋이 영어인지 한글인지에 따라 테두리 색을 변경한다.
 
-yabai config 파일에 다음과 같이 추가하여 사용할 수 있다
-
-```
-yabai -m signal --add event=window_focused action="~/.config/yabai/input_source_detect.sh"
-```
+yabai config directory에 두 파일을 추가하여 사용할 수 있다.
