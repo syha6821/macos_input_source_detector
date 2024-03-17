@@ -1,6 +1,6 @@
 # macos_input_source_detector
 
-*필요한 프로그램*
+**필요한 프로그램**
 
 - [yabai](https://github.com/koekeishiya/yabai)
 
@@ -12,7 +12,7 @@
 
 yabai config directory에 두 파일을 추가하여 사용할 수 있다.
 
-*데모영상*
+**데모영상**
 
 
 https://github.com/syha6821/macos_input_source_detector/assets/83122197/9712399b-b859-47f3-b4e4-0cdec8dcdd65
