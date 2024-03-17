@@ -28,7 +28,7 @@ end
 
 올바르게 작동하지 않는다면 각 shell 코드의 InputSourceSelector 와 yabai 의 경로를 확인해주어야 한다.
 
-**데모영상**
+**데모영상(키보드 인풋 언어가 변화함에 따라 브라우저의 테두리 색의 변화)**
 
 
 https://github.com/syha6821/macos_input_source_detector/assets/83122197/9712399b-b859-47f3-b4e4-0cdec8dcdd65
