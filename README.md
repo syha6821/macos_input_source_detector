@@ -16,7 +16,7 @@ Hammerspoon 의 init.lua 에 다음과 같은 코드를 추가하여 사용할 �
 
 - %1 인풋소스 전환키
 - %2 input_source_detect.sh 의 경로
-- %3 input_source_change_and_detect.sh
+- %3 input_source_change_and_detect.sh 의 경로
 
 ```
 local function inputSourceDetect()
@@ -25,6 +25,8 @@ local function inputSourceDetect()
     --os.execute(%3)
 end
 ```
+
+올바르게 작동하지 않는다면 각 shell 코드의 InputSourceSelector 와 yabai 의 경로를 확인해주어야 한다.
 
 **데모영상**
 
