@@ -8,9 +8,23 @@
 
 - [InputSourceSelector](https://github.com/minoki/InputSourceSelector) - macos 에서 현재 인풋을 컨트롤 할 수 있다.
 
+- [Hammerspoon](https://www.hammerspoon.org/)
+
 간단한 shell 프로그램을 이용해 limelight와 yabai의 테두리 색 표시를 활용하여 현재 키보드인풋이 영어인지 한글인지에 따라 테두리 색을 변경한다.
 
-yabai config directory에 두 파일을 추가하여 사용할 수 있다.
+Hammerspoon 의 init.lua 에 다음과 같은 코드를 추가하여 사용할 수 있다.
+
+- %1 인풋소스 전환키
+- %2 input_source_detect.sh 의 경로
+- %3 input_source_change_and_detect.sh
+
+```
+local function inputSourceDetect()
+    hs.eventtap.keyStroke({"%1"}, "1")
+    os.execute(%2)
+    --os.execute(%3)
+end
+```
 
 **데모영상**
 
